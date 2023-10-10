@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SevenNews - Economia</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript">
+
+        function atualizarDataHora() {
+            var dataHoraElement = document.getElementById("mensagem2");
+            var agora = new Date();
+            var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: false };
+            var novaDataHora = agora.toLocaleDateString('pt-BR', options);
+            dataHoraElement.textContent = novaDataHora;
+        }
+
+        // Atualize a data e hora a cada segundo
+        setInterval(atualizarDataHora, 1000);
+
+        // Inicialize a data e hora imediatamente
+        atualizarDataHora();
+    </script>
+    
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row align-items-center bg-light px-lg-5">
+            <div class="col-12 col-md-8">
+                <div class="d-flex justify-content-between">
+                    <div class="bg-primary text-white text-center py-2" style="width: 100px;">Bolsa de</div>
+                    <div class="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3" style="width: calc(100% - 100px); padding-left: 90px;">
+                        <div class="text-truncate"><a class="text-secondary" href="">Dólar PTAX 5,1100 +0,83%      </a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="">Dólar Turismo5,3567 +1,60%    </a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="">Euro Comercial 5,3968 +1,64%  </a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="">Dólar Comercial 5,1530  +1,71%</a></div>
+                        <div class="text-truncate"><a class="text-secondary" href="">Euro x Dólar 1,0454 -0,45%    </a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-right d-none d-md-block" id="mensagem2">
+            </div>
+            </div>
+        </div>
+        <div class="row align-items-center py-2 px-lg-5">
+            <div class="col-lg-4">
+                <a href="" class="navbar-brand d-none d-lg-block">
+                    <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">Seven</span>News</h1>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 mb-3">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-2 py-lg-0 px-lg-5">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-uppercase"><span class="text-primary">Seven</span>News</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link ">Inicio</a>
+                    <a href="politica.HTML" class="nav-item nav-link">Politica</a>
+                    <a href="minas.html" class="nav-item nav-link">Minas</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle nav-item nav-link active"  data-toggle="dropdown">Economia</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="pagina1/index.html" class="dropdown-item">A plataforma YouTube contribuiu...</a>
+                            <a href="pagina2/pagina2.html" class="dropdown-item">Agricultura e indústria automobilística...</a>
+                            <a href="pagina3/pagina3.html" class="dropdown-item">Empresa Novo Nordisk...</a>
+                            <a href="pagina4/index.html" class="dropdown-item">Comemorando 22 anos na rede...</a>
+                        </div>
+                    </div>
+                    <a href="esporte.html" class="nav-item nav-link">Esporte</a>
+                    <a href="tecnologia.html" class="nav-item nav-link">Tecnologia</a>
+                    <a href="cultura.html" class="nav-item nav-link ">Cultura</a>
+                    <a href="contato.html" class="nav-item nav-link">Contato</a>
+                </div>
+                
+                <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
+                    <input type="text" class="form-control" placeholder="Buscar">
+                    <div class="input-group-append">
+                        <button class="input-group-text text-secondary"><i
+                                class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+
+    <!-- Navbar End -->
+
+
+    <!-- News With Sidebar Start -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- News Detail Start -->
+                    <div class="position-relative mb-3">
+                        <img class="img-fluid w-100" src="/img/casa da cultura.jpg" style="object-fit: cover;">
+                        <div class="overlay position-relative bg-light">
+                            <div class="mb-3">
+                                <a href="">Econômia</a>
+                                <span class="px-1">/</span>
+                                <span>Outubro 09, 2023</span>
+                            </div>
+                            <div>
+                                <h3 class="mb-3">Crescimento econômico e geração de empregos em Betim</h3>
+                                
+                                <P>Betim - MG é um município de grande relevância na região que se destaca pelo elevado potencial de consumo. O desempenho econômico e o pequeno número de novas oportunidades claras de negócios são fatores de atenção.</P>
+                                <p>De janeiro a julho de 2023, foram registradas 35,1 mil admissões formais e 33,7 mil desligamentos, resultando em um saldo positivo de 1339 novos trabalhadores. Este desempenho é inferior ao do ano passado, quando o saldo foi de 2993.</p>
+                                <p>Na pequena região de Belo Horizonte este é o 5º melhor desempenho em termos absolutos. Considerando a geração de vagas pelo tamanho da população, a cidade é a 14º que mais cresce na pequena região de Belo Horizonte.</p>
+                                <p>Destacam-se positivamente a educação infantil e ensino fundamental (447), o transporte de carga (405) e os serviços de arquitetura e engenharia e atividades técnicas relacionadas (353).</p>
+                                <h6>Fonte: https://www.caravela.info/regional/betim---mg</h6>
+                                
+
+                                
+
+                                    
+                                
+                                <h4 class="mb-3">PIB de Minas Gerais sobe 0,9% no primeiro trimestre de 2023</h4>
+                                <img class="img-fluid w-50 float-left mr-4 mb-2" src="/img/soja-500X280.jpg">
+                                <p>
+                                    A economia mineira apresentou evolução de 0,9% no primeiro trimestre de 2023, depois de dois trimestres consecutivos de retração. Nos três primeiros meses deste ano, o Produto Interno Bruto (PIB) de Minas Gerais foi estimado em R$ 228,7 bilhões.</p>
+                                <p>
+                                    Em Minas Gerais, o Valor Adicionado Bruto (VAB), que representa o valor que cada setor da economia acresce ao número final de tudo que foi produzido em uma região, totalizou em R$ 203,1 bilhões, e, na composição associada às atividades, o setor agropecuário foi responsável por R$ 15 bi (7,4% do total); a indústria, por R$ 56,3 bi (27,7% do total); e os serviços, por R$ 131,8 bilhões (64,9% do total), também em referência ao primeiro trimestre de 2023.
+                                <p>
+                                    A soja representa 46% do valor de produção da pauta agrícola nacional de acordo com o Levantamento Sistemático de Produção Agrícola (LSPA), do IBGE, com previsão de aumento de 24,7% anualmente. Em Minas Gerais, a atividade agropecuária apresentou expansão de 10% no primeiro trimestre no ano, comparada aos últimos três meses de 2022. Somente a soja tem previsão de aumento de 6,3%.
+                                </p>
+                                </p>
+                                <h5 class="mb-3">Zema sanciona aumento do ICMS sobre cerveja, cigarro, celular e outros</h5>
+                                <img class="img-fluid w-50 float-right ml-4 mb-2" src="/img/zema.jpg">
+                                <p>
+                                    O governador de Minas Gerais, Romeu Zema (Novo), sancionou a lei que retoma a cobrança de uma alíquota adicional de 2 pontos percentuais do Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) para produtos considerados supérfluos. O aumento do imposto em itens como telefones celulares, cerveja, refrigerantes e armas, passa a valer no início de 2024. 
+                                </p>
+
+                             
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- News Detail End -->
+
+                    
+
+                  
+                    <!-- Comment Form End -->
+                </div>
+
+                <div class="col-lg-4 pt-3 pt-lg-0">
+                    <!-- Social Follow Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Giro pelo país</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/globo-canalcarros.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Economia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agosto 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="https://g1.globo.com/carros/noticia/2023/10/04/polo-onix-e-hb20-veja-os-carros-mais-vendidos-no-pais-em-setembro.ghtml">Polo, Onix e HB20: veja os carros mais vendidos no país em setembro</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="/img/governo.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Economia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agosto 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="https://g1.globo.com/economia/noticia/2023/10/04/desenrola-brasil-interessados-em-renegociar-dividas-precisarao-de-cadastro-no-govbr-veja-como-fazer.ghtml" target="_blank">Desenrola Brasil : interessados em renegociar dívidas precisarão de cadastro no gov.br</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/pix.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Economia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agosto 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="https://g1.globo.com/df/distrito-federal/noticia/2023/10/02/pix-errado-medico-e-ameacado-apos-receber-transferencia-de-r-1950-por-engano-no-df.ghtml" target="_blank">PIX errado: médico é ameaçado após receber transferência de R$ 19,50 por engano no DF</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/camara-deputados.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Ecomonia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Outubro 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="https://g1.globo.com/economia/noticia/2023/10/03/camara-aprova-projeto-que-amplia-uso-de-bem-como-garantia-em-mais-de-um-emprestimo.ghtml" target="_blank">Câmara aprova projeto que amplia uso de bem como garantia em mais de um empréstimo</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <!-- Newsletter End -->
+
+                    <!-- Ads Start -->
+                    <div class="mb-3 pb-3">
+                        <a href=""><img class="img-fluid" src="b3-a-bolsa-de-valores-500x280.jpg" alt=""></a>
+                    </div>
+                    <!-- Ads End -->
+
+                    <!-- Popular News Start -->
+                    <div class="pb-3">
+                        <div class="bg-light py-2 px-4 mb-3">
+                            <h3 class="m-0">Notícias</h3>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="img/palestra.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Economia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agosto 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="http://127.0.0.1:5500/pagina1/index.html">YouTube contribui com crescimento de R$8 bilhões de dolares</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="/img/agripg2.jpg.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Economia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agosto 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="http://127.0.0.1:5500/pagina2/pagina2.html">Agricultura e indústria automobilística</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="/img/empresa insulina.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Economia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Agosto 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="http://127.0.0.1:5500/pagina3/pagina3.html">Empresa Novo Nordisk produz 12% da insulina consumida no mundo</a>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <img src="/img/martminas-capa-100.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
+                                <div class="mb-1" style="font-size: 13px;">
+                                    <a href="">Ecomonia</a>
+                                    <span class="px-1">/</span>
+                                    <span>Outubro 09, 2023</span>
+                                </div>
+                                <a class="h6 m-0" href="http://127.0.0.1:5500/pagina4/index.html">Mart Minas comenora a sétima posição no setor atacarejo e mantém a posição de lider no Brasil</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <!-- Popular News End -->
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">Seven</span>News</h1>
+                </a>
+                <h3>Siga-nos</h3>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="font-weight-bold mb-4">Categorias</h4>
+                <div class="d-flex flex-wrap m-n1">
+                    <a href="politica.html" class="btn btn-sm btn-outline-secondary m-1">Politica</a>
+                    <a href="economia.html" class="btn btn-sm btn-outline-secondary m-1">Ecônomia</a>
+                    <a href="cultura.html" class="btn btn-sm btn-outline-secondary m-1">Cultura</a>
+                    <a href="esporte.html" class="btn btn-sm btn-outline-secondary m-1">Esportes</a>
+                    <a href="tecnologia.html" class="btn btn-sm btn-outline-secondary m-1">Tecnologia</a>
+                    <a href="minas.html" class="btn btn-sm btn-outline-secondary m-1">Minas</a>
+                </div>
+            </div>
+           
+            
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5">
+        <p class="m-0 text-center">
+            &copy; <a class="font-weight-bold" href="#">Seven</a>News. Todos os direitos reservados. 
+			
+			<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+			Projetado por <a class="font-weight-bold" href="https://htmlcodex.com">Seven code</a>
+        </p>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-dark back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
