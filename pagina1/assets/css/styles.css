@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: bisque;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#Container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+#ContainerTitile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+#ContainerTitile h2 {
+
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    
+}
+
+#ContainerImg {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+
+    gap: 2rem;
+}
+
+#ImgFiat img {
+    width: 500px;
+    max-height: 258px;
+}
+
+#ImgAgricultura img {
+    width: 500px;
+    max-height: 258px;
+}
+
+#ContainerTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    flex-direction: column;
+
+    width: 80%;
+}
+
+#ContainerFonte {
+
+    font-size: 0.0%;
+}
